@@ -61,8 +61,15 @@
       </h1>
 
       <p class="hero-desc">
-        I am <strong>Rohan</strong>, a growth marketer and copywriter specializing in WhatsApp marketing campaigns for Indian exporters. Here are the campaigns I built at <span class="xindus-brand">Xindus</span> that scaled B2B and B2C exports shipping from 0 to 1, driving exponential revenue growth.
+        I blend consumer psychology with sharp Hinglish storytelling to build WhatsApp marketing frameworks that hook attention and drive retention. Specializing in 0-to-1 growth for Indian exporters, I turn complex logistics into high-converting broadcast campaigns that cross borders.
       </p>
+
+      <div class="core-capabilities">
+        <span class="capability-badge">Attention Grabbing Copy</span>
+        <span class="capability-badge">Retention Funnels</span>
+        <span class="capability-badge">Consumer Psychology</span>
+        <span class="capability-badge">0-to-1 Scale-up Strategy</span>
+      </div>
 
       <div class="hero-cta-row">
         <a href="#work" class="btn-primary" id="hero-cta-work">
@@ -333,7 +340,14 @@
   </footer>
 
   <!-- ═══ LIGHTBOX ═══ -->
+  <div class="lb-backdrop" id="lbBackdrop"></div>
   <div class="lightbox" id="lightbox">
+    <!-- Navigation Controls - Inside lightbox for proper visibility control -->
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous campaign">←</button>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next campaign">→</button>
+    <div class="lb-dots" id="lbDots"></div>
+
     <div class="lb-inner">
       <div class="lb-campaign-visual-wrap">
         <img id="lbCampaignVisual" src="" alt="Campaign visual" class="lb-campaign-visual" />
@@ -352,7 +366,6 @@
           <!-- bubbles injected by JS -->
         </div>
       </div>
-      </div>
       <div class="lb-context">
         <div class="lb-context-category" id="lbCtxCat"></div>
         <h2 id="lbCtxTitle"></h2>
@@ -360,13 +373,7 @@
         <div class="about-tags" id="lbCtxTags"></div>
       </div>
     </div>
-    <!-- Navigation Controls -->
-    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
-    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous campaign">←</button>
-    <button class="lb-nav lb-next" id="lbNext" aria-label="Next campaign">→</button>
-    <div class="lb-dots" id="lbDots"></div>
   </div>
-  <div class="lb-backdrop" id="lbBackdrop"></div>
 
   <script src="script.js"></script>
 </body>
