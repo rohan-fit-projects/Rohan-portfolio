@@ -5,8 +5,8 @@
 /* ── CAMPAIGN DATA ── */
 const campaigns = [
   {
-    img: 'campaigns/campaign-1.svg',
-    campaignVisual: 'campaigns/campaign-1.svg',
+    img: 'campaign-1.svg',
+    campaignVisual: 'campaign-1.svg',
     category: 'Educational · Product Explainer',
     title: 'Ship Smart with IndiaPost via Xindus',
     copy: 'VAT, Duty, De-minimis thresholds: the compliance maze that trips up Indian exporters every time. We built a clean, infographic-style campaign that broke down the complex into the crystal clear. Bright sky blue palette, India Post branding, step-by-step layout. The goal: make exporters go "Oh! It\'s actually THAT simple."',
@@ -35,8 +35,8 @@ Note: India Post do 3 delivery attempts, then collect at nearest post office`,
     tags: ['Infographic', 'VAT/Duty', 'Trust Builder', 'Educational']
   },
   {
-    img: 'campaigns/campaign-2.svg',
-    campaignVisual: 'campaigns/campaign-2.svg',
+    img: 'campaign-2.svg',
+    campaignVisual: 'campaign-2.svg',
     category: 'Partnership Reveal · Rate Card',
     title: 'Ek naya dost — India Post',
     copy: 'The big partnership reveal. Xindus x India Post. We led with warmth, "Ek naya dost" (a new friend), then hit with numbers. Lowest India Post rates in India for exports. Country-wise pricing cards. The Xindus Eagle mascot made its debut here, giving the brand a face exporters could connect with.',
@@ -59,8 +59,8 @@ Please share your questions in the group first - it helps us respond faster and 
     tags: ['Partnership', 'Mascot Reveal', 'Rate Card', 'India Post']
   },
   {
-    img: 'campaigns/campaign-3.svg',
-    campaignVisual: 'campaigns/campaign-3.svg',
+    img: 'campaign-3.svg',
+    campaignVisual: 'campaign-3.svg',
     category: 'Humor · Problem-Solving · Decision Content',
     title: 'Ocean karun?? Ya Air karun??',
     copy: 'The classic exporter dilemma, animated, relatable and answered with swagger. Instead of a boring comparison table, we used a split-panel cartoon to mirror the exact thought loop every exporter has before choosing a shipping mode. The punchline? There\'s a third option: Air + Sea Hybrid.',
@@ -120,8 +120,8 @@ Just mark in the Poll below and our team will connect with you!
     tags: ['Interactive Poll', 'Hinglish', 'Hybrid Shipping']
   },
   {
-    img: 'campaigns/campaign-4.svg',
-    campaignVisual: 'campaigns/campaign-4.svg',
+    img: 'campaign-4.svg',
+    campaignVisual: 'campaign-4.svg',
     category: 'Market Launch · Geographic Expansion',
     title: 'We Are LIVE in Canada! 🇨🇦',
     copy: 'A market entry announcement that matches the scale of the milestone. Canada visualised with geographic pride: Vancouver and Toronto lit up on the map, aircraft and ships converging. Xindus Lite goes live Canada-wide. The copy was punchy, the visual was a hero, and the features list was tight.',
@@ -147,8 +147,8 @@ And Book Your Shipments Today!`,
     tags: ['Launch Campaign', 'Canada Expansion', 'Xindus Lite']
   },
   {
-    img: 'campaigns/campaign-5.svg',
-    campaignVisual: 'campaigns/campaign-5.svg',
+    img: 'campaign-5.svg',
+    campaignVisual: 'campaign-5.svg',
     category: 'News Hijack · Value Proposition · Urgency',
     title: 'Middle East War? We\'re SURCHARGE FREE.',
     copy: 'When global shipping routes were disrupted by Middle East tensions and every carrier started adding surcharges, we flipped the narrative. Instead of staying quiet, we boldly linked the news moment to our India Post advantage: zero surcharges. Dramatic visuals, urgent copy, clear CTA.',
